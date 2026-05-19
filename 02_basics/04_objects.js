@@ -49,8 +49,30 @@ const users = [
 // console.log(Object.values(tindUser));
 // console.log(Object.entries(tindUser));
 
-console.log(tindUser.hasOwnProperty("name"));
+// console.log(tindUser.hasOwnProperty("name"));
 
+const course = {
+    coursename: "js in urdu",
+    price: 1999,
+    courseInstructor: "Mohsin"
+}
+
+// course.courseInstructor
+
+const {courseInstructor: instructor} = course;
+console.log(instructor);
+
+// {
+//     "name": "Mohsin",
+//     "coursename": "Js in Urdu",
+//     "price": "free"
+// }
+
+// [
+//     {},
+//     {},
+//     {}
+// ]
 
 
 
